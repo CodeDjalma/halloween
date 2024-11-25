@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #969494;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+textarea::placeholder,
+input::placeholder,
+select option {
+    font-family: "Sigmar", sans-serif;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_logo {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section_title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contato_form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_input,
+.input_cep,
+.input_end,
+.input_num,
+.input_comp,
+.input_bairro,
+.input_cidade,
+.input_UF {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    font-family: "Sigmar", sans-serif;
+}
+.combodoc {
+    font-size: 20px;
+    margin-right: 50%; /* Ajuste conforme necessário */
+}
+
+.choices__inner {
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#combodoc{
+ width: 300px;
+ height: 30px;
+ text-align: center;
+ font-size: 22px;
+
+}
+
+.input_cep,
+.input_num {
+    max-width: 120px;
+}
+
+.contact_input:focus,
+.input_cep:focus,
+.input_end:focus,
+.input_num:focus,
+.input_comp:focus,
+.input_bairro:focus,
+.input_cidade:focus{
+    border-color: #c2c2c2;
+}
+
+.button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.button:hover {
+    background-color: #e64a19;
+}
+#error-message {
+    background-color: #ffe6e6;
+    color: #d9534f;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+main {
+    border-radius: 10px;
+    margin: 20px auto auto auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    background-color: rgb(100, 99, 99);
+    box-shadow: 40px 40px 40px 40px rgba(0, 0, 0, 0.1);
+    padding: 50px 20px 90px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #333;
+    color: #ec6d46;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+    bottom: 0;
+    width: 100%;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
